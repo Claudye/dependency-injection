@@ -1,0 +1,17 @@
+{
+    "name": "ladis/di",
+    "description": "Dependency Injection and Container",
+    "license": "MIT",
+    "authors": [{
+        "name": "Claudye",
+        "email": "dev.claudy@gmail.com"
+    }],
+    "require": {
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ladis\\": "vendor/claudy/src"
+        }
+    }
+}
